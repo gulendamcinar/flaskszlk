@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> fenerbahçe forma ve isim</title>
+</head>
+<body>
+    <h1>fenerbahçe forma ve isim</h1>
+    {% for tr, en in data.items() %}
+    <li><b>{{ tr }}:</b> {{ en }}</li>
+    <br>--- --- --- --- --- ---
+    {% endfor %}
+</body>
+</html>
